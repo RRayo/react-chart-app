@@ -4,7 +4,11 @@ The app connects to a FireStore DB and shows data in graphs with Chart.js
 
 ## Install
 
-Use the Node installer
+Install Node.js in the system
+
+https://nodejs.org/en/download/
+
+In the project directory, install the Node packages with:
 
 ```bash
 npm i
