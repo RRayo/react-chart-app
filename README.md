@@ -1,6 +1,6 @@
 # Simple React App with Firebase Database
 
-The app connects to a FireStore DB and shows data with
+The app connects to a FireStore DB and shows data in graphs with Chart.js
 
 ## Install
 
