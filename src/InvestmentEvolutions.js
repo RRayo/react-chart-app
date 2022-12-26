@@ -56,17 +56,13 @@ const InvestmentEvolutions = () => {
       if (docSnapshot.exists()) {
         docData = docSnapshot.data();
         setData(docData);
-        console.log(`DATA LISTENER inversiones ${JSON.stringify(docData)}`);
+        // console.log(`DATA LISTENER inversiones ${JSON.stringify(docData)}`);
       }
     });
   }
 
-  if (data && data.length > 0 && data["array"]) {
-    console.log(`DATA ${data["array"]}`);
-  }
-
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <WaitAsync func={listenInvestments}>
         {/* {JSON.stringify(data)} */}
 
